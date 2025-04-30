@@ -33,18 +33,18 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"ascend-common/common-utils/hwlog"
-	"ascend-common/common-utils/limiter"
-	"ascend-common/devmanager"
-	"ascend-common/devmanager/common"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/limiter"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager/common"
 
-	colcommon "huawei.com/npu-exporter/v6/collector/common"
-	"huawei.com/npu-exporter/v6/collector/config"
-	"huawei.com/npu-exporter/v6/collector/container"
-	_ "huawei.com/npu-exporter/v6/plugins/inputs/npu"
-	"huawei.com/npu-exporter/v6/plugins/prom"
-	"huawei.com/npu-exporter/v6/utils/logger"
-	"huawei.com/npu-exporter/v6/versions"
+	colcommon "github.com/professorshandian/npu-exporter/collector/common"
+	"github.com/professorshandian/npu-exporter/collector/config"
+	"github.com/professorshandian/npu-exporter/collector/container"
+	_ "github.com/professorshandian/npu-exporter/plugins/inputs/npu"
+	"github.com/professorshandian/npu-exporter/plugins/prom"
+	"github.com/professorshandian/npu-exporter/utils/logger"
+	"github.com/professorshandian/npu-exporter/versions"
 )
 
 var (
@@ -110,7 +110,6 @@ type NpuConfig struct {
 	NpuMaxAge     int
 }
 
-
 func main() {}
 
 //export NpuServer
@@ -120,11 +119,11 @@ func NpuServer(server *http.Server, npuConfigInfo *NpuConfig) {
 	// 	fmt.Printf("NPU-exporter version: %s \n", versions.BuildVersion)
 	// 	return
 	// }
-	ip = npuConfigInfo.npuListenIp
-	logger.HwLogConfig.LogFileName = NpuConfigInfo.NpuLogFile
-	logger.HwLogConfig.LogLevel = NpuConfigInfo.NpuLogLevel
-	logger.HwLogConfig.MaxBackups = NpuConfigInfo.NpuMaxBackups
-	logger.HwLogConfig.MaxAge = NpuConfigInfo.NpuMaxAge
+	ip = npuConfigInfo.NpuListenIp
+	logger.HwLogConfig.LogFileName = npuConfigInfo.NpuLogFile
+	logger.HwLogConfig.LogLevel = npuConfigInfo.NpuLogLevel
+	logger.HwLogConfig.MaxBackups = npuConfigInfo.NpuMaxBackups
+	logger.HwLogConfig.MaxAge = npuConfigInfo.NpuMaxAge
 	err := logger.InitLogger(platform)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "%v", err)

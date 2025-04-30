@@ -19,7 +19,7 @@ import (
 	"context"
 	"fmt"
 
-	"ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
 )
 
 const (

@@ -18,9 +18,9 @@ package metrics
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"huawei.com/npu-exporter/v6/collector/common"
-	"huawei.com/npu-exporter/v6/collector/container"
-	"huawei.com/npu-exporter/v6/versions"
+	"github.com/professorshandian/npu-exporter/collector/common"
+	"github.com/professorshandian/npu-exporter/collector/container"
+	"github.com/professorshandian/npu-exporter/versions"
 )
 
 var (

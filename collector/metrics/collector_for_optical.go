@@ -20,11 +20,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"ascend-common/common-utils/hwlog"
-	"ascend-common/devmanager/common"
-	"ascend-common/devmanager/hccn"
-	colcommon "huawei.com/npu-exporter/v6/collector/common"
-	"huawei.com/npu-exporter/v6/collector/container"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager/hccn"
+
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager/common"
+	colcommon "github.com/professorshandian/npu-exporter/collector/common"
+	"github.com/professorshandian/npu-exporter/collector/container"
 )
 
 const (

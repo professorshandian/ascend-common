@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"ascend-common/common-utils/hwlog"
-	"huawei.com/npu-exporter/v6/collector/container"
-	"huawei.com/npu-exporter/v6/utils/logger"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/collector/container"
+	"github.com/professorshandian/npu-exporter/utils/logger"
 )
 
 // StartContainerInfoCollect start collect container info

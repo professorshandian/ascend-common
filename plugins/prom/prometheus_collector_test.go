@@ -26,12 +26,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/smartystreets/goconvey/convey"
 
-	"ascend-common/common-utils/hwlog"
-	"ascend-common/devmanager"
-	"huawei.com/npu-exporter/v6/collector/common"
-	"huawei.com/npu-exporter/v6/collector/container"
-	"huawei.com/npu-exporter/v6/collector/metrics"
-	"huawei.com/npu-exporter/v6/utils/logger"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager"
+	"github.com/professorshandian/npu-exporter/collector/common"
+	"github.com/professorshandian/npu-exporter/collector/container"
+	"github.com/professorshandian/npu-exporter/collector/metrics"
+	"github.com/professorshandian/npu-exporter/utils/logger"
 )
 
 const (

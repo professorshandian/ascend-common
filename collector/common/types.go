@@ -16,7 +16,7 @@
 package common
 
 import (
-	"ascend-common/devmanager/common"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager/common"
 )
 
 // HuaWeiAIChip chip info

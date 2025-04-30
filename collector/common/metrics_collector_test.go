@@ -23,7 +23,7 @@ import (
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/smartystreets/goconvey/convey"
 
-	"ascend-common/devmanager/common"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager/common"
 )
 
 // TestCopyMap test copyMap

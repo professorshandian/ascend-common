@@ -22,7 +22,7 @@ import (
 
 	"github.com/influxdata/telegraf"
 
-	"ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
 )
 
 var defaultTelegrafLogPath = "/var/log/mindx-dl/npu-exporter/npu-plugin.log"

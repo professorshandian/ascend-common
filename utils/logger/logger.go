@@ -22,7 +22,7 @@ import (
 
 	"github.com/influxdata/telegraf"
 
-	"ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
 )
 
 // the method mapping table (avoid rebuilding with every call)

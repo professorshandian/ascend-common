@@ -22,10 +22,10 @@ import (
 	"github.com/agiledragon/gomonkey/v2"
 	"github.com/smartystreets/goconvey/convey"
 
-	"ascend-common/common-utils/hwlog"
-	"huawei.com/npu-exporter/v6/collector/common"
-	"huawei.com/npu-exporter/v6/collector/metrics"
-	"huawei.com/npu-exporter/v6/utils/logger"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/collector/common"
+	"github.com/professorshandian/npu-exporter/collector/metrics"
+	"github.com/professorshandian/npu-exporter/utils/logger"
 )
 
 func init() {

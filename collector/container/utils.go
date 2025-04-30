@@ -26,9 +26,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"ascend-common/common-utils/hwlog"
-	"ascend-common/common-utils/utils"
-	"huawei.com/npu-exporter/v6/utils/logger"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/utils"
+	"github.com/professorshandian/npu-exporter/utils/logger"
 )
 
 const (

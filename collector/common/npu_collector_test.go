@@ -28,13 +28,13 @@ import (
 	"github.com/smartystreets/goconvey/convey"
 	"github.com/stretchr/testify/assert"
 
-	"ascend-common/common-utils/hwlog"
-	"ascend-common/devmanager"
-	"ascend-common/devmanager/common"
-	"huawei.com/npu-exporter/v6/collector/container"
-	"huawei.com/npu-exporter/v6/collector/container/isula"
-	"huawei.com/npu-exporter/v6/collector/container/v1"
-	"huawei.com/npu-exporter/v6/utils/logger"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager/common"
+	"github.com/professorshandian/npu-exporter/collector/container"
+	"github.com/professorshandian/npu-exporter/collector/container/isula"
+	v1 "github.com/professorshandian/npu-exporter/collector/container/v1"
+	"github.com/professorshandian/npu-exporter/utils/logger"
 )
 
 var (

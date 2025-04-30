@@ -23,11 +23,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"ascend-common/devmanager"
-	"ascend-common/devmanager/common"
-	colcommon "huawei.com/npu-exporter/v6/collector/common"
-	"huawei.com/npu-exporter/v6/collector/container"
-	"huawei.com/npu-exporter/v6/utils/logger"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager/common"
+
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager"
+	colcommon "github.com/professorshandian/npu-exporter/collector/common"
+	"github.com/professorshandian/npu-exporter/collector/container"
+	"github.com/professorshandian/npu-exporter/utils/logger"
 )
 
 var (

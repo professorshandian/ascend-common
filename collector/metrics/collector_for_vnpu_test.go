@@ -23,9 +23,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/smartystreets/goconvey/convey"
 
-	"ascend-common/devmanager/common"
-	colcommon "huawei.com/npu-exporter/v6/collector/common"
-	"huawei.com/npu-exporter/v6/collector/container"
+	"github.com/professorshandian/npu-exporter/ascend-common/devmanager/common"
+	colcommon "github.com/professorshandian/npu-exporter/collector/common"
+	"github.com/professorshandian/npu-exporter/collector/container"
 )
 
 const (

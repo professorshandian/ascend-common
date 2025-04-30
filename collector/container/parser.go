@@ -28,11 +28,11 @@ import (
 	"sync"
 	"time"
 
-	"ascend-common/common-utils/hwlog"
-	"ascend-common/common-utils/utils"
-	"huawei.com/npu-exporter/v6/collector/container/isula"
-	"huawei.com/npu-exporter/v6/collector/container/v1"
-	"huawei.com/npu-exporter/v6/utils/logger"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/utils"
+	"github.com/professorshandian/npu-exporter/collector/container/isula"
+	"github.com/professorshandian/npu-exporter/collector/container/v1"
+	"github.com/professorshandian/npu-exporter/utils/logger"
 )
 
 const (

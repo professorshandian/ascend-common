@@ -19,7 +19,7 @@ import (
 	"errors"
 	"testing"
 
-	"ascend-common/common-utils/hwlog"
+	"github.com/professorshandian/npu-exporter/ascend-common/common-utils/hwlog"
 )
 
 // TestInitLogger tests the InitLogger function
